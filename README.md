@@ -1,6 +1,6 @@
-# Minecraft server optimization guide
+# Návod optimalizace Minecraft serveru
 
-Note for users that are on vanilla, Fabric or Spigot (or anything below Paper) - go to your server.properties and change `sync-chunk-writes` to `false`. This option is forcibly set to false on Paper and its forks, but on other server implementations you need to switch this to false manually. This allows the server to save chunks off the main thread, lessening the load on the main tick loop.
+Pokud máte vanilla, Fabric nebo Spigot server (nebo cokoliv kromě Paperu) - běžte do `server.properties` a nastavte `sync-chunk-writes` na `false`. Tento parametr je v Paperu už na false nastavený, ale na jiných verzích serveru (SpigotMC apod.) jej musíte změnit manuálně. Povoluje ukládání chunků mimo hlavní vlákno a tím jej nezatěžuje.
 
 Guide for version 1.19. Some things may still apply to 1.15 - 1.18.
 
