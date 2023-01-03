@@ -2,22 +2,22 @@
 
 Pokud máte vanilla, Fabric nebo Spigot server (nebo cokoliv kromě Paperu) - běžte do `server.properties` a nastavte `sync-chunk-writes` na `false`. Tento parametr je v Paperu už na false nastavený, ale na jiných verzích serveru (SpigotMC apod.) jej musíte změnit manuálně. Povoluje ukládání chunků mimo hlavní vlákno a tím jej nezatěžuje.
 
-Guide for version 1.19. Some things may still apply to 1.15 - 1.18.
+Návod na verzi 1.19. Některé věci můžou stále fungovat na verzích 1.15 - 1.18.
 
-Based on [this guide](https://www.spigotmc.org/threads/guide-server-optimization%E2%9A%A1.283181/) and other sources (all of them are linked throughout the guide when relevant).
+Založeno na [tomto](https://www.spigotmc.org/threads/guide-server-optimization%E2%9A%A1.283181/) a [tomto](https://github.com/YouHaveTrouble/minecraft-optimization/) návodě.
 
 Use the table of contents located above (next to `README.md`) to easily navigate throughout this guide.
 
-# Intro
-There will never be a guide that will give you perfect results. Each server has their own needs and limits on how much you can or are willing to sacrifice. Tinkering around with the options to fine tune them to your servers needs is what it's all about. This guide only aims to help you understand what options have impact on performance and what exactly they change. If you think you found inaccurate information within this guide, you're free to open an issue or set up a pull request to correct it.
+# Úvod
+Nikdy nebude žádný návod, který bude 100% účinný. Každý server má vlastní potřeby, omezení nebo to, kolik věcí a funkcí jste schopní obětovat pro ideální optimalizaci. Tinkering around with the options to fine tune them to your servers needs is what it's all about. This guide only aims to help you understand what options have impact on performance and what exactly they change. If you think you found inaccurate information within this guide, you're free to open an issue or set up a pull request to correct it.
 
 # Preparations
 
 ## Server JAR
-Your choice of server software can make a huge difference in performance and API possibilities. There are currently multiple viable popular server JARs, but there are also a few that you should stay away from for various reasons.
+Výběr správného software pro server může udělat velký rozdíl ve výkonu a možnostech API. Momentálně je zde více softwarů pro server, které jsou známé, ale existuje i několik, od kterých by jste se měli držet dál.
 
-Recommended top picks:
-* [Paper](https://github.com/PaperMC/Paper) - The most popular server software that aims to improve performance while fixing gameplay and mechanics inconsistencies.
+Doporučuje se používat:
+* [Paper](https://github.com/PaperMC/Paper) - Nejznámnější software pro server that aims to improve performance while fixing gameplay and mechanics inconsistencies.
 * [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) - Paper fork that aims to further improve server performance.
 * [Purpur](https://github.com/PurpurMC/Purpur) - Pufferfish fork focused on features and the freedom of customization.
 
