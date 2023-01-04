@@ -1,9 +1,9 @@
-# Common pitfalls and best practices
+# Obvyklé chyby a ověřené řešení
 
 This article aims to explain common pitfalls that server owners face.
 
 ## Always backup
-There are two types of people - those who make backups, and those who will start making backups. It's just a matter of time when you experience data loss. Always make copies to avoid losing your worlds or plugin data. You can apply this to any computer related workflow, not just minecraft.
+Jsou zde dva typy lidí – ti kteří dělají zálohy a ti kteří začnou dělat zálohy. Je otázkou času kdy přijdete o data nebo budete potřebovat vrátit do funkčního stavu. Vždy si dělejte zálohy jako prevenci přes ztrátou dat světů nebo pluginů. You can apply this to any computer related workflow, not just minecraft.
 
 ## Don't use outdated software
 By running outdated software versions you risk players abusing unpatched exploits, including item duplication (infinite items). It also adds an inconvenience factor since your players have to specifically downgrade their client version to match your server. This can be circumvented by using a protocol hack, but it's not ideal.
