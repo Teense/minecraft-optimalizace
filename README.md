@@ -6,7 +6,7 @@ Návod na verzi 1.19. Některé věci můžou stále fungovat na verzích 1.15 -
 
 Založeno na [tomto](https://www.spigotmc.org/threads/guide-server-optimization%E2%9A%A1.283181/) a [tomto](https://github.com/YouHaveTrouble/minecraft-optimization/) návodě.
 
-Use the table of contents located above (next to `README.md`) to easily navigate throughout this guide.
+Použijte obsah (vedle nadpisu `README.md`) pro jednodušší orientaci v tomto návodě.
 
 # Úvod
 Nikdy nebude žádný návod, který bude 100% účinný. Každý server má vlastní potřeby, omezení nebo to, kolik věcí a funkcí jste schopní obětovat pro ideální optimalizaci. Tinkering around with the options to fine tune them to your servers needs is what it's all about. This guide only aims to help you understand what options have impact on performance and what exactly they change. If you think you found inaccurate information within this guide, you're free to open an issue or set up a pull request to correct it.
@@ -18,13 +18,13 @@ Výběr správného software pro server může udělat velký rozdíl ve výkonu
 
 Doporučuje se používat:
 * [Paper](https://github.com/PaperMC/Paper) - Nejznámnější software pro server that aims to improve performance while fixing gameplay and mechanics inconsistencies.
-* [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) - Paper fork that aims to further improve server performance.
-* [Purpur](https://github.com/PurpurMC/Purpur) - Pufferfish fork focused on features and the freedom of customization.
+* [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) - Fork Paperu, který zlepšuje výkon server.
+* [Purpur](https://github.com/PurpurMC/Purpur) - Fork Pufferfish zaměřený na funkce a svobdnou úpravu.
 
-You should stay away from:
-* Any paid server JAR that claims async anything - 99.99% chance of being a scam.
-* Bukkit/CraftBukkit/Spigot - Extremely outdated in terms of performance compared to other server software you have access to.
-* Any plugin/software that enables/disables/reloads plugins on runtime. See [this section](#plugins-enablingdisabling-other-plugins) to understand why.
+Držte se dál od:
+* Jakýchkoliv placených server JAR, která zaručují asynchronost - 99.99% šance že jde o podvod.
+* Bukkit/CraftBukkit/Spigot - Extrémně zastaralé server enginy, které nejsou tak dobře optimalizované jako ostatní dostupné.
+* Jakéhokoliv pluginu/softwaru, který povoluje/zakazuje/načítá pluginy během spuštěného serveru. Podívejte se na [tuto sekci](#plugins-enablingdisabling-other-plugins) aby jste pochopili proč.
 * Many forks further downstream from Pufferfish or Purpur will encounter instability and other issues. If you're seeking more performance gains, optimize your server or invest in a personal private fork.
 
 ## Map pregen
